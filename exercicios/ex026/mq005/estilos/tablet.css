@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+main {
+    width:600px;
+}
+
+header ul {
+    padding: 4px 10px;
+}
+
+header li:hover {
+    transition: background-color .7s;
+    background-color: gray;
+    
+}
