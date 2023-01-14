@@ -9,9 +9,75 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: var(--cor01);
+}
 
+section#login{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px var(--cor03);
+    border: 1px solid rgba(0, 0, 0, 0.633)
+}
+
+div#imagem {
+    background: black url(../imagens/fundo-login.jpg) no-repeat right bottom;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+div#formulario {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+div#formulario p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+div#formulario p.input {
+    background-color: var(--cor01);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+input#entrar {
+    color: white;
+    padding: 7px;
+    background-color: var(--cor02);
+    width: 100%;
+    border: 2px solid var(--cor03);
+    border-radius: 5px;
+}
+
+p#esqueci{
+    width: 92%;
+    border: 1px solid var(--cor02);
+    border-radius: 5px;
+    margin-top: 3px; 
+    padding: 10px 50px;
+}
+
+p#esqueci a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor02);
+}
 
 
 
