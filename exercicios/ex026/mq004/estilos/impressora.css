@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+main {
+    border: 2px solid black;
+}
+main h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+    color: black;
+}
+
+img#phone{display: none;}
+img#print{display: block;}
