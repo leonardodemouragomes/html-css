@@ -55,7 +55,7 @@ menu a {
 
 menu a:hover{
     background-color: rgb(178, 178, 178);
-    transition: background-color .3s
+    transition: background-color .5s
 
 }
 
