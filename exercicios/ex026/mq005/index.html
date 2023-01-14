@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width:992px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,200" />
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu</i>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -28,5 +30,14 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis a repellat consectetur ad nulla voluptatum nesciunt, illo eaque qui impedit ducimus quis eius repudiandae omnis ipsa, obcaecati enim. Veritatis, aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis neque placeat nobis cupiditate autem. Voluptatum dolore numquam repudiandae consectetur deleniti officiis aperiam a, soluta iusto et? Tenetur, commodi laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum suscipit ipsam obcaecati, vero accusantium cum. Veritatis eos quos incidunt alias fugiat aspernatur ratione, animi ipsam eligendi ad laboriosam, officia sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus soluta maxime rerum deserunt nulla natus velit ullam sunt quae voluptatibus culpa quam cumque, error, quis, unde earum temporibus quisquam alias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga facilis eveniet nesciunt eligendi, consectetur totam iste aliquam repellat labore voluptas omnis, dolore quo enim, ipsa ea nostrum? Porro, odio cupiditate? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda reprehenderit quibusdam adipisci asperiores iusto incidunt in voluptatum, nobis deserunt expedita similique illum beatae optio facilis earum distinctio. Quibusdam, asperiores inventore.</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if(menu.style.display == 'block'){
+            menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

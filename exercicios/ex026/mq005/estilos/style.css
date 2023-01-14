@@ -21,15 +21,42 @@ header h1 {
     padding: 20px;
 }
 
-header li {
-    display: inline-block;
+i#burguer {
+    background-color: blueviolet;
+    display: block;
+    color: white;
+    text-align: center;
     padding: 10px;
-    border-radius: 10px;
+    cursor: pointer;
 }
 
-header a {
+i#burguer:hover {
+    background-color: yellowgreen;
+    color: black
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;    
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    background-color: gray;
     text-decoration: none;
+    text-align: center;
     color: white;
+    border-top:2px solid rgb(181, 181, 181)
+}
+
+menu a:hover{
+    background-color: rgb(178, 178, 178);
+    transition: background-color .3s
+
 }
 
 main {
@@ -44,6 +71,11 @@ main {
     border-bottom-right-radius: 10px;
     line-height: 1.5em;
 }
+
 main h2 {
     padding-bottom: 20px;
+}
+
+main p {
+    text-indent: 20px;
 }
